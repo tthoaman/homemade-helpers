@@ -121,3 +121,5 @@ If you finish early, try and complete the same process for the following functio
 - `max` - return the max value from a collection of numbers
 - `sum`- return the sum of all numbers within a collection
 - `count` - count the number of times a target value appears in a collection of numbers
+
+In order for the tests for these functions to run, you will need to uncomment the respective calls in `main.py`
