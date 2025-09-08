@@ -108,8 +108,16 @@ $ python3 main.py
 
 Initially there will be no output.
 
-Your goal is to implement the function `shuffle_deck` using `random.randint()` as the only permitted external function.
+Your goal is to implement the function `min` in the `min.py` file.
 
-`shuffle_deck` receives an array representing a deck of cards, in which each card is a string. It should return a shuffled copy of the input array.
+`min` will receive a collection of numbers and return the smallest one in the list. 
 
-You will probably want to add code to the `main.py` file that calls the function and performs some `print`ing so that you can evaluate your progress.
+In  `main.py`, you will see a function that calls the function `min_tests()` from `min.py`. If you run `main.py` after completing the `min` function, your terminal should print "All min tests passing."
+
+### Optional Enhancements
+
+If you finish early, try and complete the same process for the following functions:
+
+- max - return the max value from a collection of numbers
+- sum - return the sum of all numbers within a collection
+- count - count the number of times a target value appears in a collection of numbers
