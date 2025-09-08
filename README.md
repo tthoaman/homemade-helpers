@@ -118,6 +118,6 @@ In  `main.py`, you will see a function that calls the function `min_tests()` fro
 
 If you finish early, try and complete the same process for the following functions:
 
-- max - return the max value from a collection of numbers
-- sum - return the sum of all numbers within a collection
-- count - count the number of times a target value appears in a collection of numbers
+- `max` - return the max value from a collection of numbers
+- `sum`- return the sum of all numbers within a collection
+- `count` - count the number of times a target value appears in a collection of numbers
