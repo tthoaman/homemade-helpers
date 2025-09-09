@@ -1,5 +1,14 @@
 def max(my_collection):
-    pass
+    if not my_collection:
+        return None
+    
+    max = my_collection[0]
+
+    for i in my_collection:
+        if i > max:
+            max = i
+    
+    return max
 
 def test_max_empty_list():
     assert max([]) == None

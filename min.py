@@ -1,5 +1,14 @@
 def min(my_collection):
-    pass
+    if not my_collection:
+        return None
+    
+    min = my_collection[0]
+
+    for i in my_collection:
+        if i < min:
+            min = i
+    
+    return min
     
 
 def test_min_empty_list():
